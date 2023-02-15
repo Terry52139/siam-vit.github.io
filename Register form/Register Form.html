@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Register Here
+        </title>
+    </head>
+    <link rel="stylesheet" href="Register Form.css">
+    <body>
+        <h1>Register</h1>
+    <form>
+        <label for="Name1">First Name:</label>
+        <input type="text" placeholder="John" id="Name1" required>
+        <label for="Name2">Second Name:</label>
+        <input type="text" placeholder="Smith" id="Name2" required><br><br>
+        <hr>
+        <label>Male<input type="radio" name="Gender" value="Male"></label>
+        <label>Female<input type="radio" name="Gender" value="Female"></label>
+        <label>Other<input type="radio" name="Gender" value="Other"></label><br><br>
+        <hr>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="your email" id="email" required>
+
+        <label for="Password">Password:</label>
+        <input type="password" id="Password" placeholder="Password" pattern=".{5,10}" required><br><br>
+        <hr>
+        <label for="Birthday">Birthday:</label>
+        <select id="Birthday">
+            <option value="Month">1</option>
+            <option value="Month">2</option>
+            <option value="Month">3</option>
+        </select>
+        <select id="birthday">
+            <option value="Day">1</option>
+            <option value="Day">2</option>
+            <option value="Day">3</option>
+        </select>
+        <select id="birthday">
+            <option value="Year">1</option>
+            <option value="Year">2</option>
+            <option value="Year">3</option>
+        </select><br><br>
+        <hr>
+        <label for="T&C">I agree to Terms and Conditions</label>
+        <input type="checkbox" id="T&C"><br><br>
+        <a href="Survey Form.html">Link to survey form</a><hr>
+        <button type="submit">Submit</button><br><br>
+
+        <img src="https://cdn.dribbble.com/users/1625099/screenshots/14580528/media/d4535805429570af166acbd939358209.png?compress=1&resize=400x300" alt="Dead">
+    </form>
+    </body>
+</html>

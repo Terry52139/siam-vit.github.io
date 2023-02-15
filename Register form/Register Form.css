@@ -1,0 +1,27 @@
+h1
+{
+    color:greenyellow;
+}
+
+
+hr
+{
+    border-style: dotted none none;
+    border-color: rgb(228, 222, 222);
+    border-width: 5px;
+    width: 10%;
+   
+}
+body
+{
+    background-color: rgba(100,34,157,1);
+    border-color: paleturquoise ;
+    border-width: 5px;
+    border-style: dotted;
+    /*This shows that change is applicable on both files*/
+    text-align: center;
+}
+img
+{
+    background-color: blue;
+}
